@@ -1,0 +1,153 @@
+#reportrange,
+#reportrange_export {
+    background: #fff;
+    color: #1d3b4a;
+    padding: 14px 20px;
+    line-height: 18px;
+    border-radius: 4px;
+    border-width: 0 1px 4px;
+    border: 1px solid #ddd;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 3px;
+    border-left-width: 1px;
+    cursor: pointer;
+}
+
+#reportrange span,
+#reportrange_export span {
+    padding-left: 3px;
+}
+
+.light-grey {
+  background-color: #efefef;
+  padding: 15px;
+}
+
+.choices__list--multiple .choices__item {
+  background-color: #2da362 !important;
+  border-color: #2da362 !important;
+}
+
+.user-avatar, [class^="user-avatar"]:not([class*="-group"]) {
+  background-color: #2da362 !important;
+}
+
+.has-aside .nk-content-body,
+.nk-aside {
+  padding-top: 0;
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+  margin-right: 10px;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+  margin-left: 10px;
+}
+
+.dataTables_length .custom-select {
+  padding-right: 1.3em;
+}
+
+.tb-tnx-item * {
+  cursor: pointer;
+}
+
+.has-loader {
+  position: relative;
+}
+
+/* line 49, src/assets/scss/components/_loader.scss */.has-loader {
+  position:relative
+}
+/* line 52, src/assets/scss/components/_loader.scss */.has-loader.has-loader-active {
+ overflow:hidden
+}
+/* line 55, src/assets/scss/components/_loader.scss */.has-loader.has-loader-active .h-loader-wrapper {
+ opacity:1;
+ pointer-events:all
+}
+/* line 61, src/assets/scss/components/_loader.scss */.has-loader .h-loader-wrapper {
+ position:absolute;
+ top:0;
+ left:0;
+ display:-webkit-box;
+ display:-ms-flexbox;
+ display:flex;
+ -webkit-box-pack:center;
+ -ms-flex-pack:center;
+ justify-content:center;
+ -webkit-box-align:center;
+ -ms-flex-align:center;
+ align-items:center;
+ height:100%;
+ width:100%;
+ background:#fff;
+ opacity:0;
+ pointer-events:none;
+ -webkit-transition:opacity .3s;
+ transition:opacity .3s;
+ z-index:5
+}
+/* line 76, src/assets/scss/components/_loader.scss */.has-loader .h-loader-wrapper .loader {
+ height:3rem;
+ width:3rem
+}
+/* line 80, src/assets/scss/components/_loader.scss */.has-loader .h-loader-wrapper .loader.is-small {
+ height:2rem;
+ width:2rem
+}
+/* line 85, src/assets/scss/components/_loader.scss */.has-loader .h-loader-wrapper .loader.is-large {
+ height:5rem;
+ width:5rem
+}
+/* line 90, src/assets/scss/components/_loader.scss */.has-loader .h-loader-wrapper .loader.is-xl {
+ height:7rem;
+ width:7rem
+}
+/* line 101, src/assets/scss/components/_loader.scss */body.is-dark .has-loader .h-loader-wrapper {
+ background:#323236
+}
+@-webkit-keyframes spinAroundLoader {
+ from {
+  -webkit-transform:rotate(0deg);
+  transform:rotate(0deg)
+ }
+ to {
+  -webkit-transform:rotate(359deg);
+  transform:rotate(359deg)
+ }
+}
+@keyframes spinAroundLoader {
+ from {
+  -webkit-transform:rotate(0deg);
+  transform:rotate(0deg)
+ }
+ to {
+  -webkit-transform:rotate(359deg);
+  transform:rotate(359deg)
+ }
+}
+/* line 136, src/assets/scss/components/_loader.scss */.button.is-loading::after,
+.loader,
+.select.is-loading::after,
+.control.is-loading::after,
+.huro-demo-wrapper:after {
+ -webkit-animation:spinAroundLoader 500ms infinite linear;
+ animation:spinAroundLoader 500ms infinite linear;
+ border:2px solid #dbdbdb;
+ border-radius:290486px;
+ border-right-color:transparent;
+ border-top-color:transparent;
+ content:"";
+ display:block;
+ height:1em;
+ position:relative;
+ width:1em
+}
+
+.bg-image-yeelt {
+  background: url('../../images/yeelt-login.jpg') no-repeat center center;
+  background-size: cover;
+}

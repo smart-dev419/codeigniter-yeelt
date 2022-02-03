@@ -1,0 +1,42 @@
+Front-End
+
+Subscriptions
+	- Change plan
+	- Notification after trial period (14 dagen) per e-mail
+	- Block account after trial
+	- Block and must add new plan when blocked
+
+
+Seller list
+	- Type klant (trial/paid)
+	- Aantal keywords
+	- Aantal producten
+	- Laatste login
+
+	Login historie van sellers
+	- Aantal keer ingelogt laatste 7 dagen
+
+	Actieve subscription
+	- Geactiveerde modules
+
+	Laatste Access Token datum tijd
+
+
+Losse pagina's kunnen beheren en aanmaken
+- Terms, privacy
+
+Support module maken
+- Categorieen
+	- Vraan & antwoord
+
+
+Inloggen als Seller
+
+Status van data connectors (als dit mogelijk is)
+
+Facturen
+(Laatste facturen verstuurd aan sellers)
+
+
+
+
